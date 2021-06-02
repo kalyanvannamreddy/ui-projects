@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Images/background.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.logo img{
+    width: 70px;
+    margin-left: 100px
+    
+}
+
+header{
+    color: white;
+    padding: 0px;
+    width: 100%;
+    display: inline;
+    margin-right: 100px;
+}
+nav li a:visited,
+a:link {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav li a:link,
+a:visited {
+color: #fff;
+text-decoration: none;
+padding: 8px 0;
+text-transform: uppercase;
+font-size: 90%;
+border-bottom: 2px solid transparent;
+transition: border-bottom 0.2s;
+}
+ header nav li a:hover,
+ a:active {
+    border-bottom: 2px solid #e67e22;
+ }
+
+nav  ul  li {
+    display: inline;
+    margin-left: 20px;
+    float: left;
+}
+header .box{
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    font-size: 14px;
+}
+main{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+h1{
+    color: white;
+    font-size: 35px;
+    
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition:  background-color 0.2s, border 0.2s, color 0.2s;
+    margin-right: 10px;
+   
+}
+
+.btn-box1:link,
+.btn-box1:visited{
+ 
+    background-color: #e67e22;
+    border:1px solid  #e67e22;
+    color: #fff;
+    float: left;
+}
+
+.btn-box2:link,
+.btn-box2:visited {
+    border: 1px solid  #e67e22;
+    color:  #e67e22;
+    float: left;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+}
+
+.btn-box1:hover,
+.btn-box1:active {
+    border:1px solid  #cf6d17;
+     
+}
+
+.btn-box2:hover,
+.btn-box2:active {
+     border: 1px solid  #cf6d17;
+     color:  #fff;
+}

@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 100px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    top: 17px;
+    left: 30px;
+}
+nav a{
+  
+    display: block;
+    padding: 27px 10px;
+    text-decoration: none;
+    color: #939699;
+    text-align: left;
+    font: normal normal 900 14px/20px Lato;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+}
+
+.box1 {
+    float: right;
+    position: absolute;
+    top: 27px;
+    left: 850px;
+
+    
+}
+.box1 span{
+    border: 1px solid gray;
+    padding: 2px;
+    padding-top: 8px;
+    border-radius: 50px;
+    font: normal normal 900 14px/20px Lato;
+}
+main{
+    background: gray;
+    width: 1366px;
+    height: 590px;
+}
+#menu{
+        padding-left: 180px;
+        padding-top: 40px;
+        font-size: 10px;
+}
+#menu a{
+    text-decoration: none;
+}
+.tools{
+    float: right;
+    padding-right: 400px;
+    margin-top: -30px;
+    color: white;
+    font: normal normal 900 14px/20px Lato;
+    word-spacing: 2px;
+}
+.tools a{
+    text-decoration: none;
+}
+.bkmk{
+   position: absolute;
+   top: 222px;
+   left: 100px;
+}
+.text{
+    font: normal normal bold 55px/70px Roboto Slab;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 180px;
+    padding-top: 5px;
+}
+.sub{
+    text-align: left;
+    font: normal normal normal 18px/30px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.85;
+    padding-left: 180px;
+
+}
+.time{
+    padding-left: 180px;
+    text-align: left;
+    font: normal normal normal 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.85;
+    word-spacing: 6px;
+}
+.time a{
+    text-decoration: none;
+    color: white;
+}
+.share{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Image/bg.png");
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
